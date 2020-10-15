@@ -1,8 +1,8 @@
 import Vue from 'vue'
-import App from './App.vue'
+import Todo from './components/Todo'
 
 Vue.config.productionTip = false
 
 new Vue({
-  render: h => h(App),
+  render: h => h(Todo),
 }).$mount('#app')
